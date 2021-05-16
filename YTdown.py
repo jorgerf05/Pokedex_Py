@@ -22,7 +22,7 @@ while (True):
 
     print("1) Descargar audio\n2) Descargar audio y video\n")
     opc = int(input("Introduce una opción: "))
-    
+
     match opc:
         case 1:
             downloadAudio(input("Introduce la URL del video: "))
@@ -30,6 +30,6 @@ while (True):
         case 2:
             downloadVideo(input("Introduce la URL del video: "))
 
-    loop = input("\nPresione enter para descargar otro archivo, o introduzca 0 para salir: ")
+    loop = input("\nPresione enter para descargar otro archivo, o introduzca 0 para salir: \n")
     if (loop == "0"):
         break
