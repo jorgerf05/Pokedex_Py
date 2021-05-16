@@ -17,10 +17,12 @@ def downloadVideo(url):
 #Inicio
 
 print ("-----Bienvenido a YTdown!-----\n")
-print("1) Descargar audio\n2) Descargar audio y video\n")
-opc = int(input("Introduce una opción: "))
 
 while (True):
+
+    print("1) Descargar audio\n2) Descargar audio y video\n")
+    opc = int(input("Introduce una opción: "))
+    
     match opc:
         case 1:
             downloadAudio(input("Introduce la URL del video: "))
