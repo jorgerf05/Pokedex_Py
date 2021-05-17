@@ -25,7 +25,8 @@ while (True):
 
     if opc == 1:
         downloadAudio(input("Introduce la URL del video: "))
-    elif opc ==2 :
+        
+    elif opc == 2 :
         downloadVideo(input("Introduce la URL del video: "))
 
     loop = input("\nPresione enter para descargar otro archivo, o introduzca 0 para salir: \n")
